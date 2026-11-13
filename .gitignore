@@ -1,0 +1,20 @@
+node_modules/
+dist/
+.DS_Store
+test-results/
+playwright-report/
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+.vercel/
+
+# Generated screenshots and exported test images
+tests/**/*.png
+tests/exports/
+tests/before-redesign/
+
+# Coverage and temporary files
+coverage/
+*.log
